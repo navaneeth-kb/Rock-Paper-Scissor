@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Rock Paper Scissor</h1>
-    <choices>
-        <button id="bt" class="rock">Rock</button>
-        <button id="bt" class="paper">Paper</button>
-        <button id="bt" class="scissor">Scissor</button>
-    </choices>
+    <h1 id="title">ROCK PAPER SCISSOR</h1>
+    
+    <br>
+    <div>
+        <choices>
+            <button id="bt" class="rock">Rock</button>
+            <button id="bt" class="paper">Paper</button>
+            <button id="bt" class="scissor">Scissor</button>
+        </choices>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <p id="compWin">Computer Wins</p>
+        <p id="cW">0</p>
+        <p id="userWin">User Wins</p>
+        <p id="uW">0</p>
 
-    <p id="compWin">Computer Wins</p>
-    <p id="cW">0</p>
-    <p id="userWin">User Wins</p>
-    <p id="uW">0</p>
-
-    <p id="winner"></p>
+        <p id="winner"></p>
+    </div>
 
     <script src="index.js"></script>
 </body>
