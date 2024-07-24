@@ -1,19 +1,55 @@
-button{
-    height:100px;
-    width:100px;
-    /* padding: px; */
-    border:2px solid black;
-    border-radius: 20px; 
-    background-color: antiquewhite;
-    color:black;
-    font-size:20px;
-    font-weight: bolder;
+
+#title{
+    font-family: "Archivo Black", sans-serif;
 }
 body{
     text-align: center;
-    background-color:rgba(143, 181, 77, 0.733);
+    background-color:#001319ef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    color: azure;
 }
 h1{
-    color:rgb(151, 105, 48);
+    color:azure;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    align-items: center;
+    background-color: #001319ef;
+    border: 3px solid rgb(33, 87, 137);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(241, 237, 237, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    height: 80px;
+}
+  
+button:hover {
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+color: rgba(0, 0, 0, 0.65);
+}
+
+button:hover {
+transform: translateY(-1px);
 }
